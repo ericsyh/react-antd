@@ -184,6 +184,13 @@ const zhibanbiao= (location, cb) => {
     }, 'zhibanbiao');
 }
 
+//南湖区近邻社会工作服务发展中心			
+const jinlin= (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('../containers/jinlin/jinlinIndex').default)
+    }, 'jinlin');
+}
+
 const RouteConfig = (
 	<Router history={browserHistory}>
 		<Route path="/zhibanbiao" component={layout} onEnter={requireAuth}>
@@ -197,7 +204,8 @@ const RouteConfig = (
             <Route path="/shidujiating" getComponent={shidujiating} onEnter={requireAuth} />
             <Route path="/xinlianxin" getComponent={xinlianxin} onEnter={requireAuth} />
             <Route path="/chengzhangyizhan" getComponent={chengzhangyizhan} onEnter={requireAuth} />
-            <Route path="/wenxinjiayuan" getComponent={wenxinjiayuan} onEnter={requireAuth} />           
+            <Route path="/wenxinjiayuan" getComponent={wenxinjiayuan} onEnter={requireAuth} />
+            <Route path="/jinlin" getComponent={jinlin} onEnter={requireAuth} />             
 		</Route>
 		<Route path="/login" component={Roots}> // 所有的访问，都跳转到Roots
 			<IndexRoute component={login} /> // 默认加载的组件，比如访问www.test.com,会自动跳转到www.test.com/home
