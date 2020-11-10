@@ -191,6 +191,13 @@ const jinlin= (location, cb) => {
     }, 'jinlin');
 }
 
+//青鸟社工			
+const qingniao= (location, cb) => {
+    require.ensure([], require => {
+        cb(null, require('../containers/qingniao/qingniaoIndex').default)
+    }, 'qingniao');
+}
+
 const RouteConfig = (
 	<Router history={browserHistory}>
 		<Route path="/zhibanbiao" component={layout} onEnter={requireAuth}>
@@ -205,7 +212,8 @@ const RouteConfig = (
             <Route path="/xinlianxin" getComponent={xinlianxin} onEnter={requireAuth} />
             <Route path="/chengzhangyizhan" getComponent={chengzhangyizhan} onEnter={requireAuth} />
             <Route path="/wenxinjiayuan" getComponent={wenxinjiayuan} onEnter={requireAuth} />
-            <Route path="/jinlin" getComponent={jinlin} onEnter={requireAuth} />             
+            <Route path="/jinlin" getComponent={jinlin} onEnter={requireAuth} />   
+            <Route path="/qingniao" getComponent={qingniao} onEnter={requireAuth} />        
 		</Route>
 		<Route path="/login" component={Roots}> // 所有的访问，都跳转到Roots
 			<IndexRoute component={login} /> // 默认加载的组件，比如访问www.test.com,会自动跳转到www.test.com/home

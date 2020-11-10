@@ -99,6 +99,11 @@ export class Lmenu extends Component {
 					{!this.props.collapsed && <span className="nav-text">南湖区近邻社会工作服务发展中心</span>}	
 				</Link>
 				</Menu.Item>
+				<Menu.Item key="qingniao">
+				<Link to="/qingniao">
+					{!this.props.collapsed && <span className="nav-text">青鸟社工</span>}	
+				</Link>
+				</Menu.Item>
 	        </Menu>
 		)
 	}
