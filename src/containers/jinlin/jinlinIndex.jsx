@@ -23,15 +23,14 @@ class jinlin extends Component {
 						<br></br>
 						<h2>组织活动：</h2>
 						<img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB1.jpg" />
+						<img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB2.jpg" />
 						<br></br>
-                        <img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB2.jpg" />
 						<br></br>
-                        <img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB3.jpg" />
-						<br></br>
+                        <img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB3.jpg" />						
                         <img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB4.jpg" />
 						<br></br>
-                        <img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB5.jpg" />
 						<br></br>
+                        <img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB5.jpg" />
                         <img height="300" width="400" src="http://pontt9qvy.bkt.clouddn.com/%E8%BF%91%E9%82%BB6.jpg" />
                     </Card>
                 </Col>
