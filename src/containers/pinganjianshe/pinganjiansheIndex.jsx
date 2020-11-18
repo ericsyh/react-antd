@@ -4,7 +4,7 @@ import { is, fromJS} from 'immutable';
 import {Card,Row, Col,} from 'antd';
 
 /* 以类的方式创建一个组件 */
-class laoniangjiu extends Component {
+class pinganjianshe extends Component {
     constructor(props) {
     	super(props);
     }
@@ -15,8 +15,8 @@ class laoniangjiu extends Component {
 		return (	
 		<div>
 			<Row>
-				<Col span={20} className="mg-top20">
-					<img height="5782" width="1350" src="http://pontt9qvy.bkt.clouddn.com/%E8%80%81%E5%A8%98%E8%88%85-new.jpg"></img>
+				<Col span={20}>
+                    <img height="4429" width="1350" src="http://pontt9qvy.bkt.clouddn.com/%E5%B9%B3%E5%AE%89%E5%BB%BA%E8%AE%BE-new.jpg"></img>
                 </Col>
             </Row>
 		</div>
@@ -24,4 +24,4 @@ class laoniangjiu extends Component {
 	}
 }
 
-export default laoniangjiu;
+export default pinganjianshe;
