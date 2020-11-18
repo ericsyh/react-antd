@@ -61,7 +61,7 @@ export class Lmenu extends Component {
 				</Menu.Item>
 				<Menu.Item key="pinganjianshe">
 				<Link to="/pinganjianshe">
-					{!this.props.collapsed && <span className="nav-text">平安建设</span>}	
+					{!this.props.collapsed && <span className="nav-text">巾帼行动</span>}	
 				</Link>
 				</Menu.Item>
 				<Menu.Item key="leifengjiao">
